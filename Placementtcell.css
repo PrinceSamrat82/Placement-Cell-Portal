@@ -10,7 +10,7 @@
 }
 
 .container{
-    height: 100vh;
+    /* height: 50vh; */
     width:100vw;
     overflow-x: none;
 }
@@ -65,5 +65,80 @@ a{
     font-size: 2rem;
     display: flex;
     gap: 50px;
+    
+}
+#banner{
+    position: relative;
+    background-image: url(college12.jpg);
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    width: 100vw;
+  
+    
+}
+
+.container-field{
+    /* width: 100vw; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 0;
+    /* gap: 0; */
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 450px;
+    width: 50%; 
+    align-items: center;  
+    
+}
+
+.about{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
+    
+    padding:auto;
+    
+    background: rgba(2, 0, 36, 0.5);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(2, 0, 47, 0.5);
+    border-radius: 20px;
+    padding: 1.5rem!important;
+    padding-top: 1.5rem!important;
+    padding-right: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+    padding-left: 1.5rem!important;
+
+    flex: 0 0 10%;
+    flex-grow: 0;
+    flex-shrink:0 ;
+    flex-basis: 100%;
+    box-sizing: 50%;
+    color:azure;
+    
+}
+
+.login{
+    position: right;
+    width: 50%;
+    float: right;
+
     
 }
