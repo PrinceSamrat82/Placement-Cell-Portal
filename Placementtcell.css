@@ -253,28 +253,9 @@ a{
 }
 .container8>h1{
     text-align: center;
+    color: #fff;
 }
-.container9{
-    width: 20vw;
-    height: 35vh;
-}
-.container9>h1{
-    text-align: center;
-}
-.container10{
-    width: 20vw;
-    height: 35vh;
-}
-.container10>h1{
- text-align: center;
-}
-.container11{
-    width: 20vw;
-    height: 35vh;
-}
-.container11>h1{
-    text-align: center;
-}
+
 
 .container12{
 
@@ -343,4 +324,38 @@ a{
     font-size: 17px;
     line-height: 1;
     margin: 30px;
+}
+#banner5{
+    width: 100vw;
+    height: 40vh;
+}
+.container17>h1{
+    margin-top: 40px;
+    padding-top: 50px;
+    text-align: center;
+    color:black;
+    font-size: 60px;
+    
+
+}
+
+footer{
+    width: 100vw;
+    height: 60vh;
+}
+
+.container18A{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    margin: 40px;
+}
+.container18B{
+    width: 20vw;
+    height: 35vh;
+}
+.container18B>h1{
+    text-align: center;
+    color:black;
 }
