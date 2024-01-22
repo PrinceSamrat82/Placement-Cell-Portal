@@ -143,7 +143,7 @@ a{
 
 .container1>h1{
     font: normal;
-    font-size: 42px;
+    font-size: 45px;
     font-family: Inter,Helvetica Neue,sans-serif;
     margin-bottom: 5px;
     letter-spacing: .0022px;
@@ -190,7 +190,7 @@ a{
 
 #banner1{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     margin-top: 70px;
 }
 
@@ -219,4 +219,128 @@ a{
     float: right;
     padding: 1.5rem;
 
+}
+
+#banner2{
+    width: 100vw;
+    height: 90vh;
+    background-color: #8e0ea7;
+}
+.container6{
+    width: 100vw;
+    height: 40vh;
+    
+
+}
+.container6>h1{
+    margin-top: 50px;
+    padding-top: 60px;
+    text-align: center;
+    color: azure;
+}
+
+.container7{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.container8{
+    width: 20vw;
+    height: 35vh;
+}
+.container8>h1{
+    text-align: center;
+}
+.container9{
+    width: 20vw;
+    height: 35vh;
+}
+.container9>h1{
+    text-align: center;
+}
+.container10{
+    width: 20vw;
+    height: 35vh;
+}
+.container10>h1{
+ text-align: center;
+}
+.container11{
+    width: 20vw;
+    height: 35vh;
+}
+.container11>h1{
+    text-align: center;
+}
+
+.container12{
+
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 70vh;
+    margin: 65px; 
+    gap: 60px;
+    
+}
+.container13{
+    width: 50vw;
+    height: 60vh;
+    margin: 30px;
+    margin-top: 50px;
+    margin-left: 65px;
+    padding: 10px;
+    align-items: center;
+
+}
+.container14{
+    width: 50vw;
+    height: 60vh;
+
+}
+#banner4{
+    background-color: rgb(124, 203, 203);
+    width: 100vw;
+    height: 100vh;
+}
+.container15{
+    width: 100vw;
+    height: 20vh;
+    margin: 20px;
+}
+.container15>h1{
+    text-align: center;
+    margin: 20px;
+    padding-top: 60px;
+}
+.container15>p{
+    text-align: center;
+}
+
+.container16{
+    display: flex;
+    gap: 40px;
+    width: 100vw;
+    margin: 65px;
+
+}
+.container16A{
+    width: 40vw;
+    height: 60vh;
+    margin: 20px;
+    background-color:gainsboro;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow:0px 0px 4px gray,
+                0px 0px 8px gray,
+               0px 0px 12px gray;
+}
+.container16A>p{
+    font-size: 17px;
+    line-height: 1;
+    margin: 30px;
 }
