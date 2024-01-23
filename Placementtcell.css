@@ -292,6 +292,13 @@ a{
     text-align: center;
     color: azure;
 }
+.container6>p{
+    margin-top: 40px;
+    color: white;
+    font-family: Inter,Helvetica Neue,sans-serif ;
+    font-size: 17px;
+    text-align: center;
+}
 
 .container7{
     display: flex;
@@ -322,8 +329,8 @@ a{
     
 }
 .container13{
-    width: 50vw;
-    height: 60vh;
+    width: 40vw;
+    height: 50vh;
     margin: 30px;
     margin-top: 50px;
     margin-left: 65px;
@@ -331,9 +338,39 @@ a{
     align-items: center;
 
 }
+.container13>img{
+   border-radius: 10px;
+}
 .container14{
-    width: 50vw;
+    width: 60vw;
     height: 60vh;
+    padding: 20px;
+    margin: 60px;
+
+
+}
+.container14>h1{
+    
+    color: #1307f4;
+}
+.container14>p{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 0px;
+    text-align:justify;
+    font-size: 26px;
+    line-height: 1.5;
+    font-family: Inter,Helvetica Neue,sans-serif ;
+    color: gray;
+}
+.container14>h2{
+    font-family: Inter,Helvetica Neue,sans-serif;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.container14>h2>a{
+    color: blue;
+    font-size: 20px;
 
 }
 #banner4{
@@ -414,9 +451,9 @@ footer{
     box-sizing: border-box;
     border: 1px solid #fff;
     border-radius: 20px;
-    box-shadow:0px 0px 4px gray,
-                0px 0px 8px gray,
-               0px 0px 12px gray;
+    box-shadow:0px 0px 4px rgb(232, 230, 230),
+                0px 0px 8px rgb(183, 183, 183),
+               0px 0px 12px rgb(226, 223, 223);
 }
 .container18B>h1{
     text-align: center;
