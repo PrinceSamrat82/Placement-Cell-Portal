@@ -91,9 +91,7 @@ a{
     background-repeat: no-repeat;
     justify-content: center;
     width: 100%;
-    height: 500px;
-    
-  
+    height: 500px; 
     
 }
 
@@ -196,29 +194,85 @@ a{
 
 .container3{
     width: 30%;
+    height: 75vh;
+    margin-left: 40px;
     float: left;
     padding: 1.5rem;
+    background-color:white;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow:0px 0px 4px rgb(198, 197, 197),
+                0px 0px 8px rgb(213, 212, 212),
+               0px 0px 12px #d8d8d8;
 }
 .container3>h1{
     text-align: center;
+}
+.container3>p{
+    margin-top: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter,Helvetica Neue,sans-serif;
+    line-height: 1.5;
 }
 
 .container4{
     width: 30%;
     float: right;
+    height: 75vh;
     padding: 1.5rem;
+    margin-right: 30px;
+    background-color:white;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow:0px 0px 4px rgb(198, 197, 197),
+                0px 0px 8px rgb(213, 212, 212),
+               0px 0px 12px #d8d8d8;
+    
 
 }
 .container4>h1{
     text-align: center;
     font-style: normal;
 }
+.marq>h2>a{
+    text-align: center;
+    color:green;
+}
+    
+
+.marq{
+    height: 55vh;
+    text-align: center;
+    margin-top: 50px;
+    
+
+    
+}
 
 .container5{
     width: 30%;
+    height: 75vh;
     float: right;
+    margin-right: 30px;
     padding: 1.5rem;
+    background-color:white;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow:0px 0px 4px rgb(198, 197, 197),
+                0px 0px 8px rgb(213, 212, 212),
+               0px 0px 12px #d8d8d8;
 
+}
+.container5>p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter,Helvetica Neue,sans-serif;
+    line-height: 1.5;
 }
 
 #banner2{
@@ -333,7 +387,7 @@ a{
     margin-top: 40px;
     padding-top: 50px;
     text-align: center;
-    color:black;
+    color:rgba(105, 1, 146, 0.449);
     font-size: 60px;
     
 
@@ -341,7 +395,7 @@ a{
 
 footer{
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
 }
 
 .container18A{
@@ -350,12 +404,31 @@ footer{
     gap: 30px;
     padding: 20px;
     margin: 40px;
+    margin-left: 60px;
+    margin-right: 40px;
 }
 .container18B{
     width: 20vw;
     height: 35vh;
+    background-color:white;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow:0px 0px 4px gray,
+                0px 0px 8px gray,
+               0px 0px 12px gray;
 }
 .container18B>h1{
     text-align: center;
+    color:rgba(102, 1, 130, 0.667);
+    margin-top: 20px;
+}
+.container19{
+    width: 100vw;
+    margin-bottom:0px ;
+}
+.container19>p{
+    text-align: center;
     color:black;
+    font-size: 20px;
 }
