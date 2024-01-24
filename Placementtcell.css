@@ -433,6 +433,7 @@ a{
 footer{
     width: 100vw;
     height: 50vh;
+    background-color:rgb(209, 160, 208);
 }
 
 .container18A{
@@ -459,6 +460,18 @@ footer{
     text-align: center;
     color:rgba(102, 1, 130, 0.667);
     margin-top: 20px;
+}
+
+.container18B>p>a{
+    color: green;
+    font-size: 18px;
+}
+.container18B>p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: center;
 }
 .container19{
     width: 100vw;
