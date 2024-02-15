@@ -316,6 +316,20 @@ a{
     text-align: center;
     color: #fff;
 }
+.container8>span{
+    width: 100%;
+    text-align:center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.container8>p{
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    justify-content:space-around;
+    font-family: Inter,Helvetica Neue,sans-serif;
+}
 
 
 .container12{
@@ -420,6 +434,12 @@ a{
     width: 100vw;
     height: 40vh;
 }
+.container17{
+    width: 100vw;
+    height: 40vh;
+    padding: auto;
+    margin-bottom: 0px;
+}
 .container17>h1{
     margin-top: 40px;
     padding-top: 50px;
@@ -428,6 +448,12 @@ a{
     font-size: 60px;
     
 
+}
+.container17Aa{
+    height: 40vh;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
 }
 
 footer{
