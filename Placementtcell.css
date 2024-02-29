@@ -6,15 +6,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'poppins', sans-serif;
 
 }
-
-.container{
-    width:100vw;
-    overflow-x: none;
-}
-
-nav{
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     background-color: #00DBDE;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
@@ -22,15 +20,30 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
-    top: 0;
-}
-.web-item{
-    width: 100%;
-    padding-right: 2rem;
+    z-index: 100;
+
 }
 
-.navList{
+/* .container{
+    width:100vw;
+    overflow-x: none;
+} */
+
+/* nav{
+    width: 100vw;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .web-item{
+    width: 100%;
+    padding-right: 2rem;
+} */
+
+/* .navList{
     width: 100%;
     padding: 15px;
     list-style: none;
@@ -38,7 +51,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 
-}
+} */
 
 .logo{
     flex: 1;
@@ -61,19 +74,19 @@ a{
     color:white;
     text-align: center;
 }
-
 .navItems{
     font-size: 2rem;
     display: flex;
     gap: 50px;
     
 }
-nav a:link, nav a:active, nav a:visited, nav a:hover{
-    color: white;
+nav a:hover, nav a.active{
+    color: #ff0095;
 }
 
 
 #login-sec{
+    margin-top: 5%;
     position: relative;
     background-image: url(college12.jpg);
     background-position: 50%;
@@ -126,13 +139,13 @@ nav a:link, nav a:active, nav a:visited, nav a:hover{
     flex-grow: 0;
     flex-shrink:0 ;
     flex-basis: 100%;
-    box-sizing: 50%;
+    box-sizing: border-box;
+    /* box-sizing: 50%; */
     color:azure;
     
 }
 
 .container1>h1{
-    font: normal;
     font-size: 45px;
     font-family: Inter,Helvetica Neue,sans-serif;
     margin-bottom: 5px;
@@ -160,7 +173,7 @@ nav a:link, nav a:active, nav a:visited, nav a:hover{
     margin-left: 80px;
     align-items: center;
     min-height: 300px;
-    justify-content: row;
+    justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* two equal-width columns */
     grid-template-rows: repeat(2, auto); /* two rows with automatic height */
@@ -429,7 +442,7 @@ nav a:link, nav a:active, nav a:visited, nav a:hover{
 .container17{
     width: 100vw;
     height: 40vh;
-    padding: auto;
+    /* padding: auto; */
     margin-bottom: 0px;
 }
 .container17>h1{

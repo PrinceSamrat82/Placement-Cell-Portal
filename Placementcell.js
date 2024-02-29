@@ -1,26 +1,24 @@
 /** 
 // Navbar links active state on scroll
 */
-const onscroll =(el, listener)=>{
-    el.addEventListener("scroll", listener);
-};
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
 
-let navbarlinks=select("#navbar .scrollto", true);
-const navbarlinksActive=() =>{
-    let position=window.scrollY +200;
-    navbarlinks.forEach((navbarlinks)=> {
-        if(!navbarlinks.hash ) return;
-        let section = select(navbarlinks.hash);
-        if(!section)return;
-        if(
-            position >= section.offsetTop && position<= section.offsetTop +section.offsetTopsetHeight
-        ){
-            navbarlinks.classList.add("active");
-        }else{
-            navbarlinks.classList.remove("active");
-        }
-        
+window.onscroll = () =>{
+    sections.forEach(sec =>{
+        let top = window.scrollY;
+        let offset = sec.offsetTop -150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+
+        if(top >= offset && top < offset + height){
+            navLinks.forEach(links =>{
+                links.classList.remove('active');
+                document.querySelectorAll('header nav a [ href*=' + id + ']').classList.add('active');
+
+             });
+         }
+
     });
+
 };
-window.addEventListener("load", navbarlinksActive);
-onscroll(document, navbarlinksActive);
