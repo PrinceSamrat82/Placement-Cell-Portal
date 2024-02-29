@@ -21,6 +21,6 @@ const navbarlinksActive=() =>{
         }
         
     });
-}
+};
 window.addEventListener("load", navbarlinksActive);
 onscroll(document, navbarlinksActive);
