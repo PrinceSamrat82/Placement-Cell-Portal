@@ -10,48 +10,49 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="Placementtcell.css">
+    
+
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="Placementcell.js">
+     
+      
+    </script>
 </head>
 <body>
-<main>
-  <section>
-    <div class="container">
-      <head>
-          <div class="navContainer">
-              <nav>
-                  <ul id="navList" >
-                    <div class="logo">
-                      <h1><img src="kec logo.png" alt="kec logo" width="50" height="50" >
-                        Placement Cell, KEC Katihar</h1>
-                    </div>  
-                    <li>
-                          
-                      </li>
-                      <li>
-                          <div class="nevItems">
-                              <a href="banner1">Overview</a>
-                              <a href="#">Why Recruit</a>
-                              <a href="#">Principal's Message</a>
-                              <a href="#">Recruiter Process</a>
-                              <a href="#">Contact Us</a>
+ <app-root>
+  <app-home>
+   <section>
+          <nav>
+              <div class="web-item">
+                  <div class="navList" >
+                         <div class="logo">
+                         <h1><img src="kec logo.png" alt="kec logo" width="50" height="50" >
+                            Placement Cell, KEC Katihar</h1>
+                         </div>                        
+                          <div id="navbar" class="nevItems">
+                              <a class="scrollto" href="#Overview">Overview</a>
+                              <a class="scrollto" href="#Why-Rec">Why Recruit</a>
+                              <a class="scrollto" href="#Pri-Mes">Principal's Message</a>
+                              <a class="scrollto" href="#Recr-Pro">Recruiter Process</a>
+                              <a class="scrollto" href="#Cont-Us">Contact Us</a>
                               
 
                           </div>
-                      </li>
-                  </ul>
-              </nav>
+                      
+                   </div>
+                </div>
   
-          </div>
-      </head>
+          </nav>     
    
-  </section>
+   </section>
   
-  <section id="banner">
+   <section id="login-sec">
     <div class="about" >
       <div class="container1">
         <h1>A one stop portal for Placements</h1>
@@ -88,10 +89,11 @@
       </div>
 
     </div>
-  </section>
+   </section>
   <!-- Overview Section -->
-  <section id="banner1" >
-    <div class="container3">
+   <section id="Overview" >
+    
+     <div class="container3">
       <h1>Acadmic Facilities</h1>
       <P>Katihar Engineering College has a computer centre with 250+ computers, 
         equipped with top-notch processors and hardware.
@@ -107,8 +109,8 @@
          <br>
          Regular presentations, exams, classes, and lab classes are organized to provide the best education to students.</P>
 
-    </div>
-    <div class="container4">
+     </div>
+     <div class="container4">
         <h1>Notice</h1>
         <marquee behavior="scrolling" class="marq"  direction="up" onmouseover="stop()" onmouseout="start()">         
           <h2><a href="#">Placement Report 2023-24</a></h2>
@@ -121,8 +123,8 @@
           <br>
           <h2><a href="#">Placement Report 2019-20</a></h2>
         </marquee>
-    </div>
-    <div class="container5">
+     </div>
+     <div class="container5">
       <h1>Departments & Programs at KEC Katihar</h1>
       <p>
         Katihar Engineering College offers a comprehensive education in civil engineering, 
@@ -139,12 +141,12 @@
         For more information, students can visit the college's official website or contact the college directly.
       </p>
 
-    </div>
+     </div>
 
 
-  </section>
+   </section>
 
-  <section id="banner2">
+   <section id="Why-Rec">
     <div class="container6">
 
       <h1>Why KEC Katihar</h1>
@@ -217,9 +219,9 @@
       </div>
     </div>
 
-  </section>
+   </section>
 
-  <section id="banner3">
+   <section id="Pri-Mes">
     <div class="container12">
       <div class="container13">
         <img src="principal_image.webp" alt="principal of katihar">
@@ -240,9 +242,9 @@
     </div>
     
 
-  </section>
+   </section>
 
-  <section id="banner4">
+   <section id="Recr-Pro">
     <div class="container15">
       <h1>Recriutment Process</h1>
       <p>Our process has evolved over year to ensure that our recruiters have a seamless hiring experience. Here we have simplified the steps for you. </p>
@@ -281,9 +283,9 @@
           <p>14.Organization generate and delivers the offer letter to the selected candidates consistent with the information of the job created online</p>
         </div>
     </div>
-  </section>
+   </section>
 
-  <section id="banner5">
+   <section id="banner5">
     <div class="container17">
       <h1>Past Recruiters</h1>
       <div class="container17A">
@@ -297,12 +299,12 @@
       </div>
       
     </div>
-  </section>
+   </section>
 
-  <footer>
+   <footer>
     <div class="container18">
       <div class="container18A">
-        <div class="container18B">
+        <div class="container18B" id="Cont-Us">
           <h1>Contact Us</h1>
           <p>
             Placement And Traning Office,
@@ -350,17 +352,15 @@
       </p>
     </div>
     
-  </footer>
+   </footer>
 
 
+   
+ </app-home>
 
-
-
-
-
-</main>
+</app-root>
  
-    
+  
     
 </body>
 </html>

@@ -10,29 +10,27 @@
 }
 
 .container{
-    /* height: 50vh; */
     width:100vw;
     overflow-x: none;
 }
 
-.navContainer{
+nav{
     width: 100vw;
-    /* background-color:rgba(113, 113,154,0.776); */
     background-color: #00DBDE;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-
     min-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
-nav{
+.web-item{
     width: 100%;
     padding-right: 2rem;
 }
 
-#navList{
+.navList{
     width: 100%;
     padding: 15px;
     list-style: none;
@@ -56,19 +54,8 @@ nav{
 .logo img{
     margin-right: 10px;
 }
-/* #navlogo{
-    margin: 0;
-    margin-left: 0;
-    padding: 0;
-    justify-self: stretch;
-    font-size: 2rem;
-    line-height: 1.3rem;
-    text-align: center;
-    color: rgb(238, 242, 242);
-} */
 a{
     font-size: 1.5rem;
-    /* gap: 70px; */
     padding: 14px 16px;
     text-decoration: none;
     color:white;
@@ -81,7 +68,12 @@ a{
     gap: 50px;
     
 }
-#banner{
+nav a:link, nav a:active, nav a:visited, nav a:hover{
+    color: white;
+}
+
+
+#login-sec{
     position: relative;
     background-image: url(college12.jpg);
     background-position: 50%;
@@ -186,7 +178,7 @@ a{
     font-size: 25px;
   }
 
-#banner1{
+#Overview{
     width: 100vw;
     height: 80vh;
     margin-top: 70px;
@@ -275,7 +267,7 @@ a{
     line-height: 1.5;
 }
 
-#banner2{
+#Why-Rec{
     width: 100vw;
     height: 90vh;
     background-color: #8e0ea7;
@@ -387,7 +379,7 @@ a{
     font-size: 20px;
 
 }
-#banner4{
+#Recr-Pro{
     background-color: rgb(124, 203, 203);
     width: 100vw;
     height: 100vh;

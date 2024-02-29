@@ -1,0 +1,19 @@
+{
+  "name": "placement-cell-project-1",
+  "version": "1.0.0",
+  "main": "Placementcell.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "expess": "^0.0.1-security",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jshint": "^2.13.6",
+    "mongoose": "^8.2.0"
+  },
+  "description": ""
+}
