@@ -1,24 +1,24 @@
 /** 
 // Navbar links active state on scroll
 */
-let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
 
-window.onscroll = () =>{
-    sections.forEach(sec =>{
-        let top = window.scrollY;
-        let offset = sec.offsetTop -150;
-        let height = sec.offsetHeight;
-        let id = sec.getAttribute('id');
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
 
-        if(top >= offset && top < offset + height){
-            navLinks.forEach(links =>{
-                links.classList.remove('active');
-                document.querySelectorAll('header nav a [ href*=' + id + ']').classList.add('active');
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop-90,
+          behavior: 'smooth'
+        });
 
-             });
-         }
-
+        // Add 'active' class to the clicked link
+        document.querySelectorAll('nav a').forEach(link => {
+          link.classList.remove('active');
+        });
+        this.classList.add('active');
+      }
     });
-
-};
+  });

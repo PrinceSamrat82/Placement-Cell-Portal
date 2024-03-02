@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="student-login.css">
+    <title>Modern Login Page</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <!-- <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div> -->
+                <span>Use your college registeration No. for registeration</span>
+                <input type="text" placeholder="Name" required>
+                <input type="text"  placeholder="Enter Registeration No." onkeyup="numberonly(this)" required>               
+                <input type="email" placeholder="Email" required>
+                <input type="tel"  placeholder=" Enter Phone No." required>
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <!-- <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div> -->
+                <span>Use your registeration No. password</span>
+                <input type="email" placeholder=" Enter Registeration No.">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <img src="kec logo.png" alt="KEC Katihar" width="150px" height="150px">
+                    <h1>Welcome Back !</h1>
+                    <h3>Placement cell, KEC Katihar</h3>
+                    <p>Enter your personal details to use all of features  of Kec Katihar Placement portal</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <img src="kec logo.png" alt="KEC Katihar" width="150px" height="150px">
+                    <h1>Welcome to </h1>
+                    <h3>Placement cell, KEC Katihar</h3>
+                    <p>Login using your college Registeration No.</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="student-login.js"></script>
+    <script type="text/javascript">
+        function numberonly(input){
+            var num = /[^0-9]/gi;
+            Input.value = input.value.replace(num,"");
+        }
+        
+
+    </script>
+</body>
+
+</html>
