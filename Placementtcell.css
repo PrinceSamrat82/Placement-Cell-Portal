@@ -284,6 +284,17 @@ nav a:hover, nav a.active{
     font-family: Inter,Helvetica Neue,sans-serif;
     line-height: 1.5;
 }
+.know-mor{
+    border-radius: 5px;
+
+}
+.know-mor>a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+
+}
 
 #Why-Rec{
     width: 100vw;
@@ -340,6 +351,15 @@ nav a:hover, nav a.active{
     justify-content:space-around;
     font-family: Inter,Helvetica Neue,sans-serif;
 }
+.k-more{
+    border-radius: 4px;
+}
+.k-more>a{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+}
 
 
 .container12{
@@ -376,6 +396,11 @@ nav a:hover, nav a.active{
 .container14>h1{
     
     color: #1307f4;
+}
+.container14>a{
+    font-size: 1.2rem;
+    color: #1307f4;
+    
 }
 .container14>p{
     margin-top: 20px;
