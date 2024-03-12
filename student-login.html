@@ -22,8 +22,23 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div> -->
                 <span>Use your college registeration No. for registeration</span>
-                <input type="text" placeholder="Name" required>
-                <input type="text"  placeholder="Enter Registeration No." onkeyup="numberonly(this)" required>               
+                <input type="text" placeholder="Student's Name" required>
+                <input type="text" placeholder="Enter Registeration No." onkeyup="numberonly(this)" required>
+                <label for="Course">Choose your Course:&ThinSpace;
+                    <select name="Course" >
+                      <option value="Select">Select</option>
+                      <option value="CSE">B.Technology</option>
+                    </select></label>
+                <label for="Branch">Choose your Branch:&ThinSpace;
+                <select name="Branch" >
+                  <option value="Select">Select</option>
+                  <option value="CSE">CSE</option>
+                  <option value="CIVIL">CIVIL</option>
+                  <option value="MECH">MECHNICAL</option>
+                  <option value="EEE">EEE</option>
+                </select></label>
+                
+                <input type="text" placeholder="Enter Session" id="#">             
                 <input type="email" placeholder=" Enter Email" required>
                 <input type="tel"  placeholder=" Enter Phone No." required>
                 <input type="password" placeholder="Password">
@@ -49,14 +64,14 @@
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <img src="kec logo.png" alt="KEC Katihar" width="150px" height="150px">
+                    <img src="kec logo.png" alt="KEC Katihar" width="170px" height="170px">
                     <h1>Welcome Back !</h1>
                     <h3>Placement cell, KEC Katihar</h3>
                     <p>Enter your personal details to use all features  of Kec Katihar Placement portal</p>
                     <button class="hidden" id="login">Sign In</button>
                 </div>
                 <div class="toggle-panel toggle-right">
-                    <img src="kec logo.png" alt="KEC Katihar" width="150px" height="150px">
+                    <img src="kec logo.png" alt="KEC Katihar" width="170px" height="170px">
                     <h1>Welcome to </h1>
                     <h3>Placement cell, KEC Katihar</h3>
                     <p>Login using your college Registeration No.</p>
